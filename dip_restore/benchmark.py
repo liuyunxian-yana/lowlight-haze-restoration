@@ -22,7 +22,7 @@ from .registry import filename, parse, restore
 ROOT = Path(__file__).resolve().parents[1]
 METRIC_KEYS = ("psnr_db", "ssim_rgb", "delta_e76", "luma_mae")
 DIAG_KEYS = ("dark_ratio", "bright_ratio", "mean_luma", "luma_entropy")
-DEFAULT_METHODS = ("identity", "agcwd", "dcp", "gamma>dcp", "dcp>gamma", "model_global_e", "model_full", "model_light_only", "model_haze_only", "side2020", "zhang2014")
+DEFAULT_METHODS = ("identity", "agcwd", "a_fusion", "model_fusion_anchor", "dcp", "gamma>dcp", "dcp>gamma", "model_global_e", "zhang2014")
 
 
 def save_csv(path, rows):

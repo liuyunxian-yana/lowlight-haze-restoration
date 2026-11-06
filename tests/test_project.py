@@ -8,7 +8,7 @@ from dip_restore.core import linear_to_srgb, srgb_to_linear, validate
 from dip_restore.datasets import Case, load, verify, write_rgb
 from dip_restore.enhancement import ENHANCERS
 from dip_restore.dehazing import DEHAZERS
-from dip_restore.joint_model import JOINT_MODEL, inverse_scene, recover
+from dip_restore.joint_model import JOINT_MODEL, fusion_anchor, inverse_scene, recover
 from dip_restore.metrics import measure
 from dip_restore.registry import ALL, parse, restore
 from dip_restore.benchmark import run
@@ -24,8 +24,25 @@ class ProjectTests(unittest.TestCase):
             with self.subTest(name=name):
                 validate(restore(self.image, name), self.image.shape)
         np.testing.assert_array_equal(original, self.image)
-        self.assertEqual((len(ENHANCERS), len(DEHAZERS)), (7, 3))
+        self.assertTrue({"gamma", "agcwd", "clahe"}.issubset(ENHANCERS))
+        self.assertTrue({"dcp", "invert_dcp", "cap"}.issubset(DEHAZERS))
         self.assertIn("model_full", JOINT_MODEL)
+        self.assertIn("model_fusion_anchor", JOINT_MODEL)
+
+    def test_fusion_anchor_endpoints_and_exposure_floor(self):
+        from dip_restore.enhancement import agcwd
+        from dip_restore.prior_joint import a_fusion
+        np.testing.assert_array_equal(fusion_anchor(self.image, blend=0), agcwd(self.image))
+        np.testing.assert_array_equal(fusion_anchor(self.image, blend=1), a_fusion(self.image))
+        with self.assertRaises(ValueError):
+            fusion_anchor(self.image, blend=1.1)
+        e = np.full((2, 2), .035, np.float32)
+        q = np.full((2, 2), .0175, np.float32)
+        a = np.array([.72, .75, .78], np.float32)
+        j = np.full((2, 2, 3), .5, np.float32)
+        y = (e - q)[..., None] * j + q[..., None] * a
+        restored, _ = inverse_scene(y, e, q, a, noise_sigma=0)
+        np.testing.assert_allclose(restored, j, atol=2e-6)
 
     def test_order_and_color_conversion(self):
         self.assertEqual(parse("gamma>dcp"), ("gamma", "dcp"))

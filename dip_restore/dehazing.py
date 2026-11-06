@@ -1,4 +1,4 @@
-"""去雾单项基线；A 组 DCP/CAP/反转 DCP 的 RGB 重构实现。"""
+"""只做去雾:A 组 DCP/CAP/反转 DCP 的 RGB 重构实现。"""
 from __future__ import annotations
 
 import cv2

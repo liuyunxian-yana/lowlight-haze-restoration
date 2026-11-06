@@ -4,19 +4,19 @@ from __future__ import annotations
 import cv2
 import numpy as np
 
-
+# 检查输入图像是否合法
 def validate(image, shape=None):
     if not isinstance(image, np.ndarray) or image.dtype != np.uint8 or image.ndim != 3 or image.shape[2] != 3 or min(image.shape[:2]) == 0:
         raise ValueError("图像必须是非空 H×W×3 RGB uint8")
     if shape is not None and image.shape != shape:
         raise ValueError(f"图像尺寸变化：{shape} -> {image.shape}")
 
-
+# 把像素从 0～255 转换到 0～1
 def unit(image):
     validate(image)
     return image.astype(np.float32) / 255.0
 
-
+# 裁剪、乘以 255、四舍五入并转换回 uint8
 def u8(image):
     if not isinstance(image, np.ndarray) or image.ndim != 3 or image.shape[2] != 3 or not np.isfinite(image).all():
         raise ValueError("算法输出必须为有限 H×W×3 数组")

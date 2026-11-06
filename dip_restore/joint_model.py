@@ -1,4 +1,4 @@
-"""自主设计：共享曝光与空气光系数的线性域联合反演。
+"""自行设计的联合恢复方法：共享曝光与空气光系数的线性域联合反演。
 
 观测模型 Y=e[t J+(1-t) A]+n = p J+q A+n，p=e-q，q=e(1-t)。
 用亮度锚点、缓变照明和局部暗通道约束单图分解。
@@ -37,7 +37,8 @@ def airlight_and_veil(y, e, omega=0.9, patch=11, max_veil_fraction=0.85):
 
 def inverse_scene(y, e, q, a, noise_sigma=0.03):
     """给定共享参数反演 J；零正则时退化为物理逆式。"""
-    p = np.maximum(e - q, 0.025)
+    # q 已限制为小于 e；保持 p+q=e，正则项负责抑制小 p 时的噪声增益。
+    p = np.maximum(e - q, 1e-6)
     prior = np.clip(y / np.maximum(e[..., None], 0.025), 0, 1)
     lam = noise_sigma ** 2
     residual = y - p[..., None] * prior - q[..., None] * a
@@ -71,8 +72,24 @@ def recover(image, mode="full", noise_sigma=0.03, omega=0.6, return_fields=False
     return result
 
 
+def fusion_anchor(image, blend=0.3):
+    """以 AGCWD 保留暗部亮度，加入 Mertens 联合恢复的雾与局部对比度修正。
+
+    blend 在验证集固定；融合结果仍包含 DCP 去雾候选，不单独改变颜色通道。
+    """
+    from .enhancement import agcwd
+    from .prior_joint import a_fusion
+
+    if not np.isfinite(blend) or not 0 <= blend <= 1:
+        raise ValueError("blend 必须在 [0, 1] 内")
+    enhanced = agcwd(image).astype(np.float32)
+    restored = a_fusion(image).astype(np.float32)
+    return np.rint(np.clip((1 - blend) * enhanced + blend * restored, 0, 255)).astype(np.uint8)
+
+
 JOINT_MODEL = {"model_full": lambda x: recover(x, "full"),
                "model_global_e": lambda x: recover(x, "global_e"),
                "model_light_only": lambda x: recover(x, "light_only"),
                "model_haze_only": lambda x: recover(x, "haze_only"),
-               "model_unregularized": lambda x: recover(x, "unregularized")}
+               "model_unregularized": lambda x: recover(x, "unregularized"),
+               "model_fusion_anchor": fusion_anchor}

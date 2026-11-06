@@ -1,0 +1,55 @@
+{
+  "dataset": "synthetic",
+  "split": "val",
+  "data_root": null,
+  "kind": "joint",
+  "n_cases": 18,
+  "n_sources": 6,
+  "methods": [
+    "agcwd",
+    "a_fusion",
+    "model_fusion_anchor",
+    "model_full"
+  ],
+  "repeats": 1,
+  "limit": null,
+  "compare_count": 1,
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "opencv": "4.14.0",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "opencv_threads": 1,
+  "opencl": false,
+  "code_sha256": {
+    "dip_restore/__init__.py": "dd08860db113d12137ef444b487ba1a863247a6f39e3fa9925fcda4bda22d7e4",
+    "dip_restore/benchmark.py": "94cf7b59491a71311a9c3a941f8a098f00eef526006932b68004a75cf4c61839",
+    "dip_restore/core.py": "fbaa44d432e7ccc064846d971cbed22a8de096a13f88112043f5bc3ae85ad879",
+    "dip_restore/datasets.py": "e90644390983f8fffc96bc1dbf0f32e9af471f629bd10345ecdc3b6211cb45a6",
+    "dip_restore/dehazing.py": "23907c5ee4c4c5150a4da65b78c03e4941b074e82149aefa92daf4ae55b3ba5e",
+    "dip_restore/enhancement.py": "43e4bfc2a01e58f55cb4c47ac6be47f36a3c9cef4988255d77bac90290c7076d",
+    "dip_restore/joint_model.py": "d57ed4f2caca3dfa0dfa133a9f3d1a2e835c2e20a9aab66e4d35d7fd647ab5a2",
+    "dip_restore/memory_worker.py": "8bd3c42b645b635ca3ee551d924fa0e2b1bb1be9d6e76261f7aa970c99cd73ab",
+    "dip_restore/metrics.py": "bb4445ee96a39d79c7c2d458066379a9cfa077e4dac9311fddb12400433850f7",
+    "dip_restore/prior_joint.py": "b56c637a444f8600358673028cad095946cadfb214b01db48f0b68d31a1525cd",
+    "dip_restore/rdt.py": "83e298ad794431ee9b34a23b20d407c38aba71cf39aa18d8354f5d7ea7f912a2",
+    "dip_restore/registry.py": "c7d09edbe985758b72c7c0f154ce93067525e6b019cce2e8a7c8245607bea036",
+    "dip_restore/synthesis.py": "26c9e6a67f9885d23dfa342a76cad07234c14658002e2544fb1f451b8a915b22"
+  },
+  "joint_model_defaults": {
+    "white_anchor": 0.85,
+    "min_exposure": 0.025,
+    "omega": 0.6,
+    "max_veil_fraction": 0.85,
+    "noise_sigma": 0.03,
+    "exposure_shape_clip": [
+      0.75,
+      1.25
+    ]
+  },
+  "manifest_sha256": "2b4c2a83df2d84a5d1f894a0a35cd1e26dd11e2f6d502fd5f7b670c8cbc6816c",
+  "failures": 0,
+  "memory_failures": 0,
+  "timing": "预热后每图重复运行中位数；wall_ms=墙钟，cpu_ms=进程CPU；读写、哈希、指标不计入",
+  "memory": null,
+  "metrics": "sRGB RGB uint8 PSNR; 11x11 Gaussian sigma1.5 valid RGB SSIM; 不自动缩放参考图"
+}
