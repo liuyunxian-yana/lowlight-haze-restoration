@@ -2,7 +2,7 @@
 
 A illumination + DCP：照明图提亮后用全局空气光暗通道去雾。
 B Zhang 2014 / SIDE 2020：保留关键处理阶段；照明和局部空气光的
-具体估计是 CPU 友好的工程近似，均不是论文作者程序的逐像素复现。
+照明和局部空气光由本项目的公共算子估计。
 所有方法只接受、返回同尺寸 RGB uint8；共用 core 的滤波与颜色接口。
 """
 from __future__ import annotations
@@ -59,7 +59,7 @@ def zhang2014(image: np.ndarray, gamma: float = 1 / 3, color_gamma: float = 1 / 
     """Zhang 等 ICIP 2014 的三阶段思路，工程近似：照明补偿、颜色校正、局部去雾。
 
     原文的照明估计引用其他方法；这里以粗尺度平滑加引导滤波实现，
-    局部空气光由 `_local_atmosphere_restore` 估计，不声称严格复现。
+    局部空气光由 `_local_atmosphere_restore` 估计。
     """
     validate(image)
     if not 0 < gamma <= 1 or not 0 < color_gamma <= 1:
@@ -89,7 +89,7 @@ def side2020(image: np.ndarray, halo_radius: int = 9, halo_strength: float = 0.6
              illumination_gamma: float = 0.7) -> np.ndarray:
     """SIDE 2020 的处理链工程近似：光晕分离、照明/场景分解、局部去雾、重组。
 
-    原文的 ADMM/TGV 优化未复现。此函数只用于同一评测协议下的结构性基线。
+    这里用引导滤波估计照明，并在局部去雾后重组场景。
     """
     validate(image)
     if halo_radius < 1 or not 0 <= halo_strength <= 1 or not 0 < illumination_gamma <= 1:

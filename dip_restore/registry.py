@@ -1,4 +1,4 @@
-"""所有算法通过同一个 RGB uint8 函数注册；完整联合方法不误当单步骤。"""
+"""算法调度中心：所有算法通过同一个 RGB uint8 函数注册；完整联合方法不误当单步骤。"""
 from __future__ import annotations
 
 from .core import validate

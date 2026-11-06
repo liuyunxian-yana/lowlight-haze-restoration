@@ -1,8 +1,7 @@
-"""低照度单项基线；输入输出统一 RGB uint8、原尺寸。
+"""只做低照度增强；输入输出统一 RGB uint8、原尺寸。
 
 来源：原项目 B 的 gamma/AGCWD/CLAHE/Retinex 变体/MSRCP/LIME/VEViD-Lite。
-这里按各自数学定义重新实现，共用 core 的图像契约与滤波工具；Retinex
-是受启发的单尺度增益法，LIME 不含论文可选 BM3D 去噪。
+共用 core 的图像契约与滤波工具；Retinex 为单尺度增益法，LIME 用 PCG 求照明。
 """
 from __future__ import annotations
 

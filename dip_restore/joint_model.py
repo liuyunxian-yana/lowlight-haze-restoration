@@ -1,7 +1,7 @@
 """自主设计：共享曝光与空气光系数的线性域联合反演。
 
 观测模型 Y=e[t J+(1-t) A]+n = p J+q A+n，p=e-q，q=e(1-t)。
-单图分解欠定；白点锚点、缓变照明与局部暗通道是显式先验，不是实测真值。
+用亮度锚点、缓变照明和局部暗通道约束单图分解。
 """
 from __future__ import annotations
 
@@ -48,6 +48,7 @@ def inverse_scene(y, e, q, a, noise_sigma=0.03):
 
 def recover(image, mode="full", noise_sigma=0.03, omega=0.6, return_fields=False):
     """返回 RGB uint8；模式 full/global_e/light_only/haze_only/unregularized 为消融。"""
+    # 退化模型：Y = e[tJ + (1-t)A] + n
     if mode not in ("full", "global_e", "light_only", "haze_only", "unregularized"):
         raise ValueError(f"未知联合模型模式：{mode}")
     if noise_sigma < 0:

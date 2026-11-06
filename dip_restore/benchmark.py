@@ -83,7 +83,7 @@ def run(dataset="synthetic", split="test", kind="joint", methods=DEFAULT_METHODS
     if not cases:
         raise ValueError("没有符合条件的图像")
     output.mkdir(parents=True, exist_ok=True)
-    # macOS GCD 构建中 setNumThreads(1) 无效，0 才强制为 1。
+    # GCD 构建中 setNumThreads(1) 无效，0 才强制为 1。
     cv2.setNumThreads(0)
     cv2.ocl.setUseOpenCL(False)
     rows, errors = [], []

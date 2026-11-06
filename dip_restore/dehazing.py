@@ -36,7 +36,7 @@ def _dcp_float(x, patch=15, omega=0.95, t0=0.2, a_min=0.3, scale=0.5,
 
 
 def dcp(image, **kwargs):
-    """He 等暗通道去雾；A 原项目增加大气光下限和缩图估计。"""
+    """He 等暗通道去雾；采用大气光下限和缩图透射率估计。"""
     return u8(_dcp_float(unit(image), **kwargs))
 
 
