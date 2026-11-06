@@ -1,0 +1,182 @@
+[
+  {
+    "source_id": "bsds_159029",
+    "split": "val",
+    "clean": "clean/val/bsds_159029.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/159029.jpg",
+    "sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "width": 481,
+    "height": 321,
+    "official_split": "train"
+  },
+  {
+    "source_id": "bsds_20008",
+    "split": "val",
+    "clean": "clean/val/bsds_20008.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/20008.jpg",
+    "sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "width": 321,
+    "height": 481,
+    "official_split": "train"
+  },
+  {
+    "source_id": "bsds_155060",
+    "split": "val",
+    "clean": "clean/val/bsds_155060.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/155060.jpg",
+    "sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "width": 321,
+    "height": 481,
+    "official_split": "train"
+  },
+  {
+    "source_id": "bsds_286092",
+    "split": "val",
+    "clean": "clean/val/bsds_286092.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/286092.jpg",
+    "sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "width": 481,
+    "height": 321,
+    "official_split": "train"
+  },
+  {
+    "source_id": "bsds_100075",
+    "split": "val",
+    "clean": "clean/val/bsds_100075.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/100075.jpg",
+    "sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "width": 481,
+    "height": 321,
+    "official_split": "train"
+  },
+  {
+    "source_id": "bsds_61060",
+    "split": "val",
+    "clean": "clean/val/bsds_61060.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/61060.jpg",
+    "sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "width": 481,
+    "height": 321,
+    "official_split": "train"
+  },
+  {
+    "source_id": "bsds_119082",
+    "split": "test",
+    "clean": "clean/test/bsds_119082.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/119082.jpg",
+    "sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_170057",
+    "split": "test",
+    "clean": "clean/test/bsds_170057.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/170057.jpg",
+    "sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_58060",
+    "split": "test",
+    "clean": "clean/test/bsds_58060.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/58060.jpg",
+    "sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_163085",
+    "split": "test",
+    "clean": "clean/test/bsds_163085.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/163085.jpg",
+    "sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_42049",
+    "split": "test",
+    "clean": "clean/test/bsds_42049.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/42049.jpg",
+    "sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_167062",
+    "split": "test",
+    "clean": "clean/test/bsds_167062.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/167062.jpg",
+    "sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_157055",
+    "split": "test",
+    "clean": "clean/test/bsds_157055.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/157055.jpg",
+    "sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_295087",
+    "split": "test",
+    "clean": "clean/test/bsds_295087.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/295087.jpg",
+    "sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_24077",
+    "split": "test",
+    "clean": "clean/test/bsds_24077.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/24077.jpg",
+    "sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_78004",
+    "split": "test",
+    "clean": "clean/test/bsds_78004.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/78004.jpg",
+    "sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "width": 321,
+    "height": 481,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_220075",
+    "split": "test",
+    "clean": "clean/test/bsds_220075.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/220075.jpg",
+    "sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  },
+  {
+    "source_id": "bsds_45096",
+    "split": "test",
+    "clean": "clean/test/bsds_45096.jpg",
+    "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/images/plain/normal/color/45096.jpg",
+    "sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "width": 481,
+    "height": 321,
+    "official_split": "test"
+  }
+]

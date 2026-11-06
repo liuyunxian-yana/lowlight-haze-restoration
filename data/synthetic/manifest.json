@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "bsds_159029_lowlight_mild",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/val/bsds_159029_lowlight_mild.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "634fa6ec83576ee7fd9af0cb9b6e1ab5d9d6fe60cb761f758db60d7b02ab5f63",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 17627017712404518636,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_159029_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_haze_mild",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/val/bsds_159029_haze_mild.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "07fbce4d16368e6e0919ef6a3970b20659e9e2f6d62a09f3a11321cf68d032ac",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 17627017712404518636,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_159029_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_joint_mild",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/val/bsds_159029_joint_mild.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "cc326fb8d532df700af0d2c0ba866a4b40059e4cea1ffbe5a8111158cb2ba67c",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 17627017712404518636,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_159029_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_lowlight_medium",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/val/bsds_159029_lowlight_medium.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "0df6d6ea260ebfab22d77eaa4b3b9a00589a86b13533a041d944ca467ea9866a",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 9905661150503210371,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_159029_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_haze_medium",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/val/bsds_159029_haze_medium.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "02cab3e34aab53de38bb3cc3e606ae43af8e172ed049ffbd4b05839ddc849d1b",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 9905661150503210371,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_159029_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_joint_medium",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/val/bsds_159029_joint_medium.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "3205a4850874496f08f696b0536fd698dbd79e6e615454f381674eabf58780dd",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 9905661150503210371,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_159029_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_lowlight_severe",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/val/bsds_159029_lowlight_severe.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "151383e0de10572835533b428d9a7cc2a7aab62626e54cf94a79067a4fcf5b2d",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 503437171563419189,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_159029_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_haze_severe",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/val/bsds_159029_haze_severe.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "a48cd135f3d1d0439d63dbc61888f08681b6660f82fe8a2fb92b2483503aac1b",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 503437171563419189,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_159029_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_159029_joint_severe",
+    "source_id": "bsds_159029",
+    "split": "val",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/val/bsds_159029_joint_severe.png",
+    "reference": "clean/val/bsds_159029.jpg",
+    "input_sha256": "553606d1d7532dd18d9835081d942b9dd82f64c13aea4360c708e323030a7cc6",
+    "reference_sha256": "f8fd16aa4a73f8ba86879938dfede9d49c646abed42a1550fdf9c9d50d011d36",
+    "seed": 503437171563419189,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_159029_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_lowlight_mild",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/val/bsds_20008_lowlight_mild.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "ee09b7587dce23135a2fe851dff20859f1c5e439616cfff6c4afca91705e67fa",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 17491213823550990464,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_20008_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_haze_mild",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/val/bsds_20008_haze_mild.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "7704b70fc417ddd7e8b552b3c3a4786ab40fa2ca0ba46268f5c2a397e42927bd",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 17491213823550990464,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_20008_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_joint_mild",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/val/bsds_20008_joint_mild.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "5a533f29bd13edcfd0b70d2d51fa14a4dfca9dcd846c7ade3a0cf504e46ce3f6",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 17491213823550990464,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_20008_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_lowlight_medium",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/val/bsds_20008_lowlight_medium.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "848c4b3d1951ad3a1142ad4f5177c40eb1bcc67c5775ab17401c0d7fbc606792",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 9379174847408923832,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_20008_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_haze_medium",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/val/bsds_20008_haze_medium.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "045f39616401034cab3e068875d5b9e077d81c3b5501e1e069b1729df35b1585",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 9379174847408923832,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_20008_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_joint_medium",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/val/bsds_20008_joint_medium.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "e2cde0fcbaf5bbd52c0ccd40bc0e3393c5bb4f0f6b2f8b7f0979a7bb469676dc",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 9379174847408923832,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_20008_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_lowlight_severe",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/val/bsds_20008_lowlight_severe.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "c742f8e999bfed98f60e2169f2cae009a2d0f237cd03760cfeef51aa4ab733d6",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 14223630901991145203,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_20008_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_haze_severe",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/val/bsds_20008_haze_severe.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "22fb1f7082eb8da39a4cbc84a51bd54f3b547e1659ce9804c95addde88d1e21c",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 14223630901991145203,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_20008_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_20008_joint_severe",
+    "source_id": "bsds_20008",
+    "split": "val",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/val/bsds_20008_joint_severe.png",
+    "reference": "clean/val/bsds_20008.jpg",
+    "input_sha256": "d295b2331a5f7b3b411c20248078adaa75a4f8b0333b3201fb445b7800b6d66d",
+    "reference_sha256": "fef09bec8e1abcceb10ee1eccb36422dc7c913e5c03b0b32b7a317f317fe47ff",
+    "seed": 14223630901991145203,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_20008_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_lowlight_mild",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/val/bsds_155060_lowlight_mild.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "5ecd327b2038ecdad3d6b6640ccb0b27dc33f8a9bc0e20309e79f489fe9bf2cf",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 9579587687641508226,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_155060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_haze_mild",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/val/bsds_155060_haze_mild.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "853958e6c0c64a5ea3c92b0af5a3b37171dcec6af46c54db06c06efa5b7b06a8",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 9579587687641508226,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_155060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_joint_mild",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/val/bsds_155060_joint_mild.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "f4fb7bdd55827ebc39429e0bb30372e79d12dbfa040d7b054393afc37a86c4c2",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 9579587687641508226,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_155060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_lowlight_medium",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/val/bsds_155060_lowlight_medium.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "ea893025c4d853e0bbc4a9a63a44aa8bed823b281ee0ba339f3e89e371b99ee8",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 17027287114681540043,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_155060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_haze_medium",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/val/bsds_155060_haze_medium.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "6b9c113e23bc1fb528bb78763f057e830a7c96ad7c29b087b274614bee74e92a",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 17027287114681540043,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_155060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_joint_medium",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/val/bsds_155060_joint_medium.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "01d0e3ce7553ded63182d36abeaaa0a647e78eb2a8c37011f10f7092ec7de179",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 17027287114681540043,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_155060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_lowlight_severe",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/val/bsds_155060_lowlight_severe.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "d640b353cf3154bef83201215ad423f41e6765620807c263d50a5520d3c0348f",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 16819013714631007154,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_155060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_haze_severe",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/val/bsds_155060_haze_severe.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "4d03fa47436786327203c8d3b894defe93f5d4a6abfd6d5e9be528ea764a0885",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 16819013714631007154,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_155060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_155060_joint_severe",
+    "source_id": "bsds_155060",
+    "split": "val",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/val/bsds_155060_joint_severe.png",
+    "reference": "clean/val/bsds_155060.jpg",
+    "input_sha256": "37b083f159a3490472dd58a9d51d83fa20e23e5c1d44e1db2c0ba2ef8416c2a2",
+    "reference_sha256": "0fc66b4bc05e5429e6ebb7260ab6c9a47ff9e1605753982eb8c7ada688d151c3",
+    "seed": 16819013714631007154,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_155060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_lowlight_mild",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/val/bsds_286092_lowlight_mild.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "b02dc0eeeabacb97888829c8d904a4dc51dda9a9f5f7007523936e5c60f1571f",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 7875050660008222848,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_286092_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_haze_mild",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/val/bsds_286092_haze_mild.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "a89283a933813d5338f991b4ff98f92bfa5c8877b557976d131462be9b9dcfea",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 7875050660008222848,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_286092_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_joint_mild",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/val/bsds_286092_joint_mild.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "5f05c3cd40099bf76194eedfecc2f56d9d0dc6b6d1e2a8ffd128a99f0c30e5d4",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 7875050660008222848,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_286092_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_lowlight_medium",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/val/bsds_286092_lowlight_medium.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "bc13eafd2fdddb2c5765c50e2f42c05f3905fd6400d06f26c49c3bb64d04d6e9",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 16680017880909968358,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_286092_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_haze_medium",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/val/bsds_286092_haze_medium.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "b52d9c76e2b79f675d75090f20b47ea03d8a38804457a70e5c169afb34618e4f",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 16680017880909968358,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_286092_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_joint_medium",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/val/bsds_286092_joint_medium.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "e6b37ce50a485a44409b28b5beef5570b8e61bc69d8fb6f402a6e650bb1719b3",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 16680017880909968358,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_286092_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_lowlight_severe",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/val/bsds_286092_lowlight_severe.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "4395118f5b79c9a936e832ffd9da01d1653bb6cf1d6819be4a05f8d845fd9103",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 6692626224217053675,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_286092_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_haze_severe",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/val/bsds_286092_haze_severe.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "73b1abedcf5a60942c90407217263a64deaeda5b9c9fb9895d03e22c291b163b",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 6692626224217053675,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_286092_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_286092_joint_severe",
+    "source_id": "bsds_286092",
+    "split": "val",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/val/bsds_286092_joint_severe.png",
+    "reference": "clean/val/bsds_286092.jpg",
+    "input_sha256": "f479b9fcd311f22b72f7bb309931642f42fbdc3d9f3bd3c02ac6f193a0d4147a",
+    "reference_sha256": "de62290e49e8ebbd1f9f73833be9a07298225e7983d9e51dc576b249e0c411ab",
+    "seed": 6692626224217053675,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_286092_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_lowlight_mild",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/val/bsds_100075_lowlight_mild.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "448a5c1502822c5bd9ee8eb692155058a01d54669367bc3388b8d68dfe1a0296",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 5259984287635016511,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_100075_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_haze_mild",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/val/bsds_100075_haze_mild.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "89a7ccf47298d4f04891b1d41187cce2ef688e41acfc091aeb1631c5ac9a0ca9",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 5259984287635016511,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_100075_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_joint_mild",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/val/bsds_100075_joint_mild.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "088eeb71654cf925447b33ac745ea470a2c84589431e0ae859ee18ede02c6a0c",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 5259984287635016511,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_100075_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_lowlight_medium",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/val/bsds_100075_lowlight_medium.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "8b544ff5f8c95cf924609c05ae69748bb6bcbb820c8a119c676890ec40a9abc9",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 6044765060764376808,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_100075_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_haze_medium",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/val/bsds_100075_haze_medium.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "8b790601e4b343b2290876817e9a29940e5ec90c8a154d0e6b56fdac74e3bcff",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 6044765060764376808,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_100075_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_joint_medium",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/val/bsds_100075_joint_medium.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "d18e7479cbfd0a0fc597f2e120e5fe4155029002ac98635159ffb3adf247765a",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 6044765060764376808,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_100075_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_lowlight_severe",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/val/bsds_100075_lowlight_severe.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "1b621d86dc8dce69769f24bdc60f9ebe110a0f51cb2630a64c5a18c23c937254",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 5445539253846871626,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_100075_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_haze_severe",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/val/bsds_100075_haze_severe.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "5a42ecc6b554dc48202f500924ea817645a6a76b6b91cb8ca7c6c011d5df71bc",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 5445539253846871626,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_100075_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_100075_joint_severe",
+    "source_id": "bsds_100075",
+    "split": "val",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/val/bsds_100075_joint_severe.png",
+    "reference": "clean/val/bsds_100075.jpg",
+    "input_sha256": "34768fb09aadb0f8f16a30da438fead6f5ff80bd4457f135952c6650bbe62a22",
+    "reference_sha256": "2393a54b1993e438bd7be69f8d3a1ba5b337a48f89ca78dd0bba066dc1007e1d",
+    "seed": 5445539253846871626,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_100075_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_lowlight_mild",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/val/bsds_61060_lowlight_mild.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "2406ad807f32697e8dfda581f7ec549ef421b2c3fecb78308064556db50d9651",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 698003788882983154,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_61060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_haze_mild",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/val/bsds_61060_haze_mild.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "99ba7ed28d749cb10e3f6c3c77e94c0aee5747cf91b94b660f5edbef8d30c23a",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 698003788882983154,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_61060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_joint_mild",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/val/bsds_61060_joint_mild.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "40f578db9f64d26cf3c1b0218a648ed7e772c3698f3a7c1f8fa4f624d4abb260",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 698003788882983154,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/val/bsds_61060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_lowlight_medium",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/val/bsds_61060_lowlight_medium.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "f581ff859c7117114803f56e687ae49b31faffc1fe2941b01560beb4a9449de2",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 5953787499168199541,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_61060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_haze_medium",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/val/bsds_61060_haze_medium.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "ce568d1842cd57799932eefcdd1dc37987e51db9ffa609f33b4a6a1f646eb6f8",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 5953787499168199541,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_61060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_joint_medium",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/val/bsds_61060_joint_medium.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "75c2a86e0dcc24fb26a4c6515fb36bbc5a418b35837e3912132bf5fc357ccc0c",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 5953787499168199541,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/val/bsds_61060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_lowlight_severe",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/val/bsds_61060_lowlight_severe.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "bb9613f0960cb04ebd6b9b1be1335dd94604961729d62212d1aa47458ac2ae38",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 6589046613799118343,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_61060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_haze_severe",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/val/bsds_61060_haze_severe.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "58744cacff1fe391ac0086fe0aa25fbccd7b14f8ea0e8d55ca80ef4add57a204",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 6589046613799118343,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_61060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_61060_joint_severe",
+    "source_id": "bsds_61060",
+    "split": "val",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/val/bsds_61060_joint_severe.png",
+    "reference": "clean/val/bsds_61060.jpg",
+    "input_sha256": "8eed55296d9364a8b1663b7c86abafe78331f4f48cee819f2df424d75b9182e7",
+    "reference_sha256": "f73fe310eb3da97b1d3b9baf50929f7fdd2f9fdf3faebc3346c64ec8205f626f",
+    "seed": 6589046613799118343,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/val/bsds_61060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_lowlight_mild",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_119082_lowlight_mild.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "0c3643b3d45cf7b80b1eed8b0c204a73fcc5c2933ca7f314564f41a1eb8de451",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 2949664681679938981,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_119082_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_haze_mild",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_119082_haze_mild.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "437f0ee035eb38f449e0479ca6504d481238d0e911de4c5e7237f374290aae54",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 2949664681679938981,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_119082_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_joint_mild",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_119082_joint_mild.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "de69a75cdeacdf6bbba91c29817d3483ca7bea5864b0e88950d2a389857e27ad",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 2949664681679938981,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_119082_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_lowlight_medium",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_119082_lowlight_medium.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "4684219c52e4c74bc378ec1948e35d0690a7dbcb57da42c754873f3412e9f6b2",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 4677226005275692868,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_119082_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_haze_medium",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_119082_haze_medium.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "4b84043608d9a6f3973a8ca07a780317f65c6f028ca9c713d0be566fb0c91c95",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 4677226005275692868,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_119082_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_joint_medium",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_119082_joint_medium.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "a8ee3f1e95f0426d6f753f0b54f3fa16463f3d95425282bbe9a6ab3501230bae",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 4677226005275692868,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_119082_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_lowlight_severe",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_119082_lowlight_severe.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "0f9192c916892c54cae6fc33b0a280d458030b27055dd13273545a618e89fe45",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 2739308160391673960,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_119082_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_haze_severe",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_119082_haze_severe.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "c8ad1bd9a40aa4a26ce4f9c8cc39504d4c32f519b0525394f7b9ce076c14a189",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 2739308160391673960,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_119082_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_119082_joint_severe",
+    "source_id": "bsds_119082",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_119082_joint_severe.png",
+    "reference": "clean/test/bsds_119082.jpg",
+    "input_sha256": "a600b714ea54aa5594a14ac21dfd996b1771e0ed90dd19dc78527408b4c0db60",
+    "reference_sha256": "6dfea292fdc3ab4767033a43d5104a44d6970dd1c4221ab7cc6feea3071e076c",
+    "seed": 2739308160391673960,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_119082_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_lowlight_mild",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_170057_lowlight_mild.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "f827a2738b04b704ee01b835298e3ad226455aca341507053c3d60ad3e9586e4",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 15075811198971972328,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_170057_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_haze_mild",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_170057_haze_mild.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "123472cd420c4be1d5b6a06ab65a009720e1c7d0334c92890d734726556fbcb4",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 15075811198971972328,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_170057_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_joint_mild",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_170057_joint_mild.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "73d8379baeca2310447929c40c829d47b9ac2c18d1b89cc78e97d04e2ff04c89",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 15075811198971972328,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_170057_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_lowlight_medium",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_170057_lowlight_medium.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "572c181bfeacb65cd40b10789ef111c71d1dd8e83d5593fc18a623915a0bbb32",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 1637925948781983491,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_170057_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_haze_medium",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_170057_haze_medium.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "4d95dbf76033098097e6bef9648eb417b37e94448ba1e2716521318d069dc22c",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 1637925948781983491,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_170057_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_joint_medium",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_170057_joint_medium.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "476cb4e6695b3722f4fc386f82f425578100f0d0ccb1f8de213426faa2b38e61",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 1637925948781983491,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_170057_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_lowlight_severe",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_170057_lowlight_severe.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "c5619b61e741fec7ab502aafac9fd455a1e12cd15794e3b5cd3041867d4bf378",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 5292294442640283605,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_170057_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_haze_severe",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_170057_haze_severe.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "9f57370892834de0b25f4cb5f1225e6c430ee567f7ea88009d3d40f9312691aa",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 5292294442640283605,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_170057_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_170057_joint_severe",
+    "source_id": "bsds_170057",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_170057_joint_severe.png",
+    "reference": "clean/test/bsds_170057.jpg",
+    "input_sha256": "600108703a04549ee33740d57c65d990eacd03d834030c35bc54fc1d5476906e",
+    "reference_sha256": "8e19703ba3151f3cafc4377a719b00c9961c63a74e7440a088cac00798aa2ce4",
+    "seed": 5292294442640283605,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_170057_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_lowlight_mild",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_58060_lowlight_mild.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "a2d9aaecae5af8d8a67e71b9429d5eddda05c6689c964576e351885ee7c9db7b",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 6963336221692444721,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_58060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_haze_mild",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_58060_haze_mild.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "50fae5c7b1177183bc96bfd69703cf4f2857a6487d03c702ca7f1d7772b4fd5d",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 6963336221692444721,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_58060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_joint_mild",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_58060_joint_mild.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "f4dfe3e719de3a17756e4ef2011552527ba3e0e819ca2379cf821b44b4687982",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 6963336221692444721,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_58060_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_lowlight_medium",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_58060_lowlight_medium.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "423bbc03226feabf97d72d67ad50d8a7dfe2dceacf075b12880ec93b5b1014e2",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 16084571902300044990,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_58060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_haze_medium",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_58060_haze_medium.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "a09a6ee6835dbeb13ff8b945e4cc95db28499d442ad8b410e1a2d89094fe693c",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 16084571902300044990,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_58060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_joint_medium",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_58060_joint_medium.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "ff3c72f96fd7d6d93ef83c2fa15264d5d3a8b82347de17a8721004c3fe4ccd9c",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 16084571902300044990,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_58060_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_lowlight_severe",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_58060_lowlight_severe.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "2c2a80e7ee928bede15fac81a4dac0d4812cf2f9fd68f4ce5d0a69f5db25c16e",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 4681820289056518263,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_58060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_haze_severe",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_58060_haze_severe.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "bbb5e4657a2853f5333cfa3cf2df331a5a0dbb39eaf0a9c92d3649aa03adf22c",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 4681820289056518263,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_58060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_58060_joint_severe",
+    "source_id": "bsds_58060",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_58060_joint_severe.png",
+    "reference": "clean/test/bsds_58060.jpg",
+    "input_sha256": "5bf03ad7b822fb438896ccafe549fea611e95c55617a29796be80b559d447450",
+    "reference_sha256": "36f884882eda51c519329f96f4926402fc198b771a074f098dc8f8f03951fa17",
+    "seed": 4681820289056518263,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_58060_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_lowlight_mild",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_163085_lowlight_mild.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "0fd2b445773c83637c18814e91987754c5247dc4fabb6bd8e503aa3164e19423",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 772122358181418166,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_163085_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_haze_mild",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_163085_haze_mild.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "e43370fa17b16edb438aafdedff1ce03670988d91ca76ff64544f07def02254f",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 772122358181418166,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_163085_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_joint_mild",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_163085_joint_mild.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "7a57abeb4b9ef4372f6ebd148734c1100212fa300686f7a19880deecdfcac285",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 772122358181418166,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_163085_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_lowlight_medium",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_163085_lowlight_medium.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "4de2e527a60eecb76bb270b0e6f88b180105dd2a701d42bd66fddf25c2db816d",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 5647900649139367652,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_163085_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_haze_medium",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_163085_haze_medium.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "699a6de8ee53364352cb2e5a95eab0d1ee8ec257da5a1d2cf7299def5d27ab1b",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 5647900649139367652,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_163085_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_joint_medium",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_163085_joint_medium.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "ec7226f76ccad88f7e3a4f216e573892c99e80da482ab4b14522d8340063f3cb",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 5647900649139367652,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_163085_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_lowlight_severe",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_163085_lowlight_severe.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "c228c14eac75a825fc196617f2b2303bc44ba5bdfa3dce8adf8ee8e7dedcdc90",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 15768232539565447717,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_163085_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_haze_severe",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_163085_haze_severe.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "9988a1afbcb5f930dffcf7449a1c2dcb408fa4dd55da97de705fe8c73dda3198",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 15768232539565447717,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_163085_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_163085_joint_severe",
+    "source_id": "bsds_163085",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_163085_joint_severe.png",
+    "reference": "clean/test/bsds_163085.jpg",
+    "input_sha256": "776be7ed800ed6bea3ccd43a8f9a39e1e663552aad3f77b491fa04c77a48cf9e",
+    "reference_sha256": "123b43fa40f4a77b90994a423cd34d1f985ecd0ae7b584d7d1498d4586d9cc8c",
+    "seed": 15768232539565447717,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_163085_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_lowlight_mild",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_42049_lowlight_mild.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "634bfb603a62d7fb06e2b37a7204f3abcdf3a67a1edfa2b3c5b60bdce03f7ffa",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 16142803590511825471,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_42049_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_haze_mild",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_42049_haze_mild.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "439ee11c074027ae040f45bdb681788bf907b11af6c7b3ca90b8b66086fab1c5",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 16142803590511825471,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_42049_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_joint_mild",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_42049_joint_mild.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "55712d056ca3f57d1c562b66f2cfe7124249e4430f8de54a11b374024fd4c505",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 16142803590511825471,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_42049_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_lowlight_medium",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_42049_lowlight_medium.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "6138cfb9b211038d4f4e46eb6897e29efea865b982f126d69c8d803ca62b8d1c",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 13604907979211464929,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_42049_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_haze_medium",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_42049_haze_medium.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "9c8cbd6c16097947b42e910bd9a6af9a25b993dc6f38be58d1d477c791a0d230",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 13604907979211464929,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_42049_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_joint_medium",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_42049_joint_medium.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "beed86c749b1379780797e895be237ef815b9a6e4fbc4d2359675f2351990718",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 13604907979211464929,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_42049_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_lowlight_severe",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_42049_lowlight_severe.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "cd58c957701c60d719980695450875be028286a67b8d62c3c9185291cf3f04f3",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 15532021212857635360,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_42049_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_haze_severe",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_42049_haze_severe.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "3b6a6de47ab958191f19eeef37f81e1bc2e4b2cf25f545e6f92ebb828a295320",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 15532021212857635360,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_42049_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_42049_joint_severe",
+    "source_id": "bsds_42049",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_42049_joint_severe.png",
+    "reference": "clean/test/bsds_42049.jpg",
+    "input_sha256": "77e3fc3b27dd9403fed51561b26b66404c937d422b6ded8fed9fa38accf6f38e",
+    "reference_sha256": "ce90aa48e5862374e8940d7e05bbe364ef4c95c6aa96c82f195a6a299fbef43e",
+    "seed": 15532021212857635360,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_42049_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_lowlight_mild",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_167062_lowlight_mild.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "fe1ba67e01fc6422774075780ab59209a8037982e7892c90db245b8c3b247a1b",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 16006369124533245270,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_167062_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_haze_mild",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_167062_haze_mild.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "5375c833a9ef0cdd955e813bdf81970c7227fadfb71b33d0789833111e79558d",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 16006369124533245270,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_167062_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_joint_mild",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_167062_joint_mild.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "2fee0c5ee91154aff490b9b5cb76937c1623165bdb77961e7bd129cdb9b47c6f",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 16006369124533245270,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_167062_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_lowlight_medium",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_167062_lowlight_medium.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "7a6bc408353e2734347bc66bcb6cd284a5eb4ebe8a2b40c3d1c2a30c21ffabc5",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 15787144242804239837,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_167062_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_haze_medium",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_167062_haze_medium.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "a4585393bc7b9865910a587793410ced3293b0c668522c2b9fe96391134edcd0",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 15787144242804239837,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_167062_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_joint_medium",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_167062_joint_medium.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "10cb58c7126935ae14bd0a7a1824cb4e63bdd9b73bd63f08f430f7e8455a1947",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 15787144242804239837,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_167062_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_lowlight_severe",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_167062_lowlight_severe.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "446e0d3bf83c398a472d7986ef8e990f0dd9bd620b5d90054984da05bc57ba99",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 4208696847855827270,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_167062_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_haze_severe",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_167062_haze_severe.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "cb8b68ade54b58095dff27b501098bf9708a72c944a8d17e4ac1aaecd590cf9e",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 4208696847855827270,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_167062_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_167062_joint_severe",
+    "source_id": "bsds_167062",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_167062_joint_severe.png",
+    "reference": "clean/test/bsds_167062.jpg",
+    "input_sha256": "943e3ad37148a904711494b09e62ab378fd55b90d942374910e297cba0e30383",
+    "reference_sha256": "8546961967f7787879170630447d23d967d0953256b63ab223bb40762158d7c5",
+    "seed": 4208696847855827270,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_167062_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_lowlight_mild",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_157055_lowlight_mild.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "68d2ddc181acd7853020b528c08cda9d43fd0a912d4fc59185d257cc90204527",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 4237355685634592240,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_157055_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_haze_mild",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_157055_haze_mild.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "475752dbe37ae1cd020d1649b47a10aeb4dd7c4b8b9dd917ae2d8d599cce3aaa",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 4237355685634592240,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_157055_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_joint_mild",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_157055_joint_mild.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "7d02d1a6faf29597ae4150ff8807339a46afab129e2d4ae25b192c4746640054",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 4237355685634592240,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_157055_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_lowlight_medium",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_157055_lowlight_medium.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "8b0a3e7800a5666195eae0fdb052130a86a97e8cd0bff94d8f4e26a85d669078",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 14691743517497917032,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_157055_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_haze_medium",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_157055_haze_medium.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "e6a1bb1ef3c200577f4ded5cbbe5e20c0c88f4fa349df0ce968400a482b4c757",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 14691743517497917032,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_157055_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_joint_medium",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_157055_joint_medium.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "44447b263529a11a06125cb6c427e280046cb916e02e4c4880641e41865b243a",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 14691743517497917032,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_157055_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_lowlight_severe",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_157055_lowlight_severe.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "7f26e60c60f6f9c98d9ae751faa579d9825c4db18a266c5b60ad739d8fd3c0a0",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 11472335941080119017,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_157055_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_haze_severe",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_157055_haze_severe.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "53dae18ce9ce6986d6dcc97532f54d71fd263e7233121c49f3beacba914a256b",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 11472335941080119017,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_157055_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_157055_joint_severe",
+    "source_id": "bsds_157055",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_157055_joint_severe.png",
+    "reference": "clean/test/bsds_157055.jpg",
+    "input_sha256": "9caeaaa22c895b7075b2ab43491e7e8cbc84ad0c4feba80007e2e9096d1ef4a0",
+    "reference_sha256": "d40b95176e0fd390f2949e52c0caa3306800a84d0bd3d2a2f2de58a3f0c5d46c",
+    "seed": 11472335941080119017,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_157055_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_lowlight_mild",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_295087_lowlight_mild.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "919230c072239f1119b3375c3752ee3e5820ee589ae612d379da8df3e221f8b6",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 8456883903037518870,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_295087_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_haze_mild",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_295087_haze_mild.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "27012145048d4d4985b0c52fd38eafe6b151324f760e0bdfc57acdae05f64e55",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 8456883903037518870,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_295087_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_joint_mild",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_295087_joint_mild.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "14e723574443be0f9d2b177f40e928c3374179ef503940c45c63dbea77afcae4",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 8456883903037518870,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_295087_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_lowlight_medium",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_295087_lowlight_medium.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "e7aac3f8a0bbb90ed0b24700bb190095adaa31e750462d797113dda39d432f54",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 8901235102779704034,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_295087_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_haze_medium",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_295087_haze_medium.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "4818d5887747e9b1c569dc8883bc4cf0aeb60027a727902cea5570d17d597be4",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 8901235102779704034,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_295087_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_joint_medium",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_295087_joint_medium.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "3dddeea62771614b272ae1b2ce101acd29b62338fa22ffd1cf4df12454a5247f",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 8901235102779704034,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_295087_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_lowlight_severe",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_295087_lowlight_severe.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "b1800f593de221d7e1f179c8b4b539a1050da0341b9dea96dad30b04462faf9f",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 2601583967819619656,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_295087_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_haze_severe",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_295087_haze_severe.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "c9af819812d9fd46b0fc212ac0f789d8e672274a19231c190144b9587049c002",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 2601583967819619656,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_295087_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_295087_joint_severe",
+    "source_id": "bsds_295087",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_295087_joint_severe.png",
+    "reference": "clean/test/bsds_295087.jpg",
+    "input_sha256": "e991274fe552283ecd3e0fa898dff0886f0d0157626d42903148639c3d75675d",
+    "reference_sha256": "1abd17bb7ae6ba577232a83e60160a05103cc93b954916142a15621e406eda5d",
+    "seed": 2601583967819619656,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_295087_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_lowlight_mild",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_24077_lowlight_mild.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "29e2e7b33354eb7b81b44797cdb1bbc13918f97d240aed787125519af90d7753",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 3275126460979970495,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_24077_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_haze_mild",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_24077_haze_mild.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "417682dfa496a949d8b146ef67d54d4832267f4c13daf4a148b821675df66cf7",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 3275126460979970495,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_24077_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_joint_mild",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_24077_joint_mild.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "f4a48c2e63a18505289974e100a1f675617b1a686593904cbfaf8ccacc6fb28f",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 3275126460979970495,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_24077_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_lowlight_medium",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_24077_lowlight_medium.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "eeb4c49dc7b49a6126be808f64c242058dbc767d258ae004ba032cef5e1849df",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 8055121046111015226,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_24077_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_haze_medium",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_24077_haze_medium.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "8dea3c964a5ccec6640d8017b13ef4662697c07b5485091dab75a6c9a6048945",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 8055121046111015226,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_24077_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_joint_medium",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_24077_joint_medium.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "d22edb40d36a0c2f1e67f21ee227f1c917c476f5ac5f141deca84f28b41f81d9",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 8055121046111015226,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_24077_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_lowlight_severe",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_24077_lowlight_severe.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "15022743d5d9bef12647ce4edfe6d08a66329d4f62e6e9f9df3c2382d63ffc95",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 10529912602438111743,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_24077_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_haze_severe",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_24077_haze_severe.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "41623e84d72c93b2cee6f6bb51c4e67a7fd106af5eb689f4146914f0ada1df0c",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 10529912602438111743,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_24077_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_24077_joint_severe",
+    "source_id": "bsds_24077",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_24077_joint_severe.png",
+    "reference": "clean/test/bsds_24077.jpg",
+    "input_sha256": "20ad80e795c9a481255b3ee92d752f5b4fd1fe6bdb84afa5a6581b96cccfad61",
+    "reference_sha256": "45dd5e81d7764b5d4745fa13da2683e60bb8e1f3f5ebe4633b8fd70cdafa77e2",
+    "seed": 10529912602438111743,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_24077_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_lowlight_mild",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_78004_lowlight_mild.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "99e54cd6fd263fbd90d5f1a637349db937d633b74ab2d8e61eba23f80109bd02",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 8656724833256434707,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_78004_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_haze_mild",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_78004_haze_mild.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "6524f37f079dfcc7b44a3731be85e625528283adcf18b5b15c578d14b5c509ad",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 8656724833256434707,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_78004_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_joint_mild",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_78004_joint_mild.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "f1b581559092a79d937efa68897c5c1ee4b4984bf646ae5ba03e2a16baff388d",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 8656724833256434707,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_78004_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_lowlight_medium",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_78004_lowlight_medium.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "4da861614fa9b47a67c3f4a6aaaeceeed4413c9be7b4b627f8f18fa1073db903",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 9024885580750767296,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_78004_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_haze_medium",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_78004_haze_medium.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "7cf7e16029bc426f75d5412b24c229fbb7474ded2f862cb7dbb8236fdea76989",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 9024885580750767296,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_78004_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_joint_medium",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_78004_joint_medium.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "be64406daf6d56075e4fd8df6b551a21a6eff4becb61be719ca5cfc529cc91eb",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 9024885580750767296,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_78004_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_lowlight_severe",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_78004_lowlight_severe.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "f36a159a4a01cc1b3ecde399d1b2d5676cf356e8a451047249df6f12fdc2bdc4",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 5155896108730733237,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_78004_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_haze_severe",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_78004_haze_severe.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "64e0361bd2825b2bf7dfd6275f7fd7ade06359375cfe55b6d183e0f3959e936f",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 5155896108730733237,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_78004_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_78004_joint_severe",
+    "source_id": "bsds_78004",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_78004_joint_severe.png",
+    "reference": "clean/test/bsds_78004.jpg",
+    "input_sha256": "fa7ccc5f987ae801ce380fed6ae71538f0fb877f1520b9a82f889a5787ae8de2",
+    "reference_sha256": "a40b8cd3b9833ceb415215941847a98bf315dde01f5ee6c1946908e0290588e4",
+    "seed": 5155896108730733237,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_78004_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_lowlight_mild",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_220075_lowlight_mild.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "740745c38a71eae95c2cc0acfc8872639488c1a5e1a1bdbb597682feeac2ee58",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 4387392028315568778,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_220075_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_haze_mild",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_220075_haze_mild.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "dc89fed46cf18e3c618e78a04dbd8ff27f1984bd711c9520f8036775ce81fd09",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 4387392028315568778,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_220075_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_joint_mild",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_220075_joint_mild.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "f9d0b1c5cf74614bc93a738d19325540883e090956e57cd8cb9803dbca723d30",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 4387392028315568778,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_220075_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_lowlight_medium",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_220075_lowlight_medium.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "39b0f80f3e28d39d4f8296af4b816211aaacb50a8f5355f53a870d974202f20a",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 9534734807679246442,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_220075_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_haze_medium",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_220075_haze_medium.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "786328d7f275c3da560563193b978af98ab81ad35c7ccf55a9843f96fcd21da0",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 9534734807679246442,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_220075_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_joint_medium",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_220075_joint_medium.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "ce69af3f9aec4f1f4475d253bcb488ff0c8331f669f5fa7e9efe8e3b1d441f24",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 9534734807679246442,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_220075_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_lowlight_severe",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_220075_lowlight_severe.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "f6dfb90b5e824cc4abc64bae58c0a867e37bc48a788c4039a0464dac8e77eedd",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 2969854056567707938,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_220075_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_haze_severe",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_220075_haze_severe.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "5bf305ec65c6632a2de8af0d5e39c9ad238e5cda16a2c6d6f70f8dc225249879",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 2969854056567707938,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_220075_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_220075_joint_severe",
+    "source_id": "bsds_220075",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_220075_joint_severe.png",
+    "reference": "clean/test/bsds_220075.jpg",
+    "input_sha256": "319e41dd68f686b03cb10b121260521bd81c09f1b92c6a935447d6be4004b05d",
+    "reference_sha256": "1de559e1336ff3351370f00820d2f4e20a3ba58c47b7757716d13f25bd623b2c",
+    "seed": 2969854056567707938,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_220075_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_lowlight_mild",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "mild",
+    "input": "degraded/test/bsds_45096_lowlight_mild.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "8f44489a62da2ed9ad712e83fc31b6f090176ba9f994d441e0cadcb3c7d80bb4",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 9662109838751023587,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_45096_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_haze_mild",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "haze",
+    "severity": "mild",
+    "input": "degraded/test/bsds_45096_haze_mild.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "fe0300eae3207eb762d8f61f63d98f12a1728920fdd9373a874bb51b8331f770",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 9662109838751023587,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_45096_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_joint_mild",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "joint",
+    "severity": "mild",
+    "input": "degraded/test/bsds_45096_joint_mild.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "69240a1f0634c6b5c4d67fe25f3f0b95cd111bc5ae03362aa6993219009d5ff8",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 9662109838751023587,
+    "params": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "audit_maps": "maps/test/bsds_45096_mild.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_lowlight_medium",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "medium",
+    "input": "degraded/test/bsds_45096_lowlight_medium.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "b8ee65b0b1ae1ef1d6549036cec2fdbcf3919f85607a4257beab537ca5d071e1",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 15188037625548921606,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_45096_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_haze_medium",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "haze",
+    "severity": "medium",
+    "input": "degraded/test/bsds_45096_haze_medium.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "d96c824a0df9c745c872b7a8bccab096f89acddeca7e4945da42c0398df2762a",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 15188037625548921606,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_45096_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_joint_medium",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "joint",
+    "severity": "medium",
+    "input": "degraded/test/bsds_45096_joint_medium.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "c02a11d49960120c2e45b905b5fbcad1897213aaf0d6e6c3ab12054c90f73317",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 15188037625548921606,
+    "params": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "audit_maps": "maps/test/bsds_45096_medium.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_lowlight_severe",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "lowlight",
+    "severity": "severe",
+    "input": "degraded/test/bsds_45096_lowlight_severe.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "c42a584a8918958c3d69f76e41a37c48b3764ea4d66bb75ed3da9e42bcf263e7",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 18402721449461158910,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_45096_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_haze_severe",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "haze",
+    "severity": "severe",
+    "input": "degraded/test/bsds_45096_haze_severe.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "c6e2e36689583424a11785f5aeaa48f60e997147f02718c28edd40d249e5623a",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 18402721449461158910,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_45096_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  },
+  {
+    "id": "bsds_45096_joint_severe",
+    "source_id": "bsds_45096",
+    "split": "test",
+    "kind": "joint",
+    "severity": "severe",
+    "input": "degraded/test/bsds_45096_joint_severe.png",
+    "reference": "clean/test/bsds_45096.jpg",
+    "input_sha256": "1ebb278db9415ea115610ad713be67f8e50c165570f9d48fdd8709fd4ef8f2c2",
+    "reference_sha256": "933ca0ab38291907390adc1391d81b27f68ba6afa7d91c88f825e5f7cd8eb6e3",
+    "seed": 18402721449461158910,
+    "params": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    },
+    "audit_maps": "maps/test/bsds_45096_severe.npz",
+    "model": "linear_haze_then_exposure_poisson_gaussian_v1"
+  }
+]

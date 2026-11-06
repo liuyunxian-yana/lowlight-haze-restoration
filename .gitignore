@@ -1,4 +1,3 @@
-cat > .gitignore <<'EOF'
 # macOS / IDE
 .DS_Store
 .idea/
@@ -16,9 +15,5 @@ __pycache__/
 .env
 .env.*
 
-# Datasets and generated results
-data/
-results/
-outputs/
+# Generated files
 *.log
-EOF

@@ -1,0 +1,38 @@
+{
+  "seed": 20261104,
+  "levels": {
+    "mild": {
+      "exposure": 0.25,
+      "beta": 0.6,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 4096,
+      "read_sigma": 0.001
+    },
+    "medium": {
+      "exposure": 0.1,
+      "beta": 1.2,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 2048,
+      "read_sigma": 0.002
+    },
+    "severe": {
+      "exposure": 0.035,
+      "beta": 2.0,
+      "airlight_linear": [
+        0.72,
+        0.75,
+        0.78
+      ],
+      "photon_count": 1024,
+      "read_sigma": 0.004
+    }
+  }
+}

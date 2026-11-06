@@ -1,0 +1,60 @@
+{
+  "dataset": "synthetic",
+  "split": "val",
+  "data_root": null,
+  "kind": "joint",
+  "n_cases": 18,
+  "n_sources": 6,
+  "methods": [
+    "identity",
+    "agcwd",
+    "gamma>dcp",
+    "dcp>gamma",
+    "model_global_e",
+    "model_full",
+    "model_light_only",
+    "model_haze_only",
+    "model_unregularized"
+  ],
+  "repeats": 1,
+  "limit": null,
+  "compare_count": 1,
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "opencv": "4.14.0",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "opencv_threads": 1,
+  "opencl": false,
+  "code_sha256": {
+    "dip_restore/__init__.py": "dd08860db113d12137ef444b487ba1a863247a6f39e3fa9925fcda4bda22d7e4",
+    "dip_restore/benchmark.py": "b823ea872971bc79271fb18e96ed1ae1bed1c4dbbeda7c124dcde20490029bd5",
+    "dip_restore/core.py": "69094d7af4651f9e689c411af83d7b2a6aedfa936e95127eee4bc0fc72241766",
+    "dip_restore/datasets.py": "e90644390983f8fffc96bc1dbf0f32e9af471f629bd10345ecdc3b6211cb45a6",
+    "dip_restore/dehazing.py": "ceb412d04de690501b9b1f773cc8fac99bf96a91a0122d9c18cbd746f75107f9",
+    "dip_restore/enhancement.py": "9e2e823a2ec285d6b373ed6143321b3afb2467511249b4ee70d74c7d3d650ee5",
+    "dip_restore/joint_model.py": "ec55a31362b8f29b256ec3e7da66a18266ebf1a239f825f5a119db4a0763410b",
+    "dip_restore/memory_worker.py": "8bd3c42b645b635ca3ee551d924fa0e2b1bb1be9d6e76261f7aa970c99cd73ab",
+    "dip_restore/metrics.py": "bb4445ee96a39d79c7c2d458066379a9cfa077e4dac9311fddb12400433850f7",
+    "dip_restore/prior_joint.py": "0830476f328ec8a482bca745dab80d323e2587ff3f7518d146d1563abc24b095",
+    "dip_restore/rdt.py": "e502752f22a7911712d848cd6da2647c2180533e29ed28eafad45f8f1f701c37",
+    "dip_restore/registry.py": "fe32a915eab14c0ee7a3ab6d73b37b12214826385e288518fbbc500a4a771dd8",
+    "dip_restore/synthesis.py": "26c9e6a67f9885d23dfa342a76cad07234c14658002e2544fb1f451b8a915b22"
+  },
+  "joint_model_defaults": {
+    "white_anchor": 0.85,
+    "min_exposure": 0.025,
+    "omega": 0.6,
+    "max_veil_fraction": 0.85,
+    "noise_sigma": 0.03,
+    "exposure_shape_clip": [
+      0.75,
+      1.25
+    ]
+  },
+  "manifest_sha256": "2b4c2a83df2d84a5d1f894a0a35cd1e26dd11e2f6d502fd5f7b670c8cbc6816c",
+  "failures": 0,
+  "memory_failures": 0,
+  "timing": "预热后每图重复运行中位数；wall_ms=墙钟，cpu_ms=进程CPU；读写、哈希、指标不计入",
+  "memory": null,
+  "metrics": "sRGB RGB uint8 PSNR; 11x11 Gaussian sigma1.5 valid RGB SSIM; 不自动缩放参考图"
+}
