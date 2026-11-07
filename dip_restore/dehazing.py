@@ -8,7 +8,7 @@ from .core import dark_channel, guided, u8, unit
 
 
 def _gray_601(rgb):
-    """A 原始 OpenCV 灰度引导图对应的 RGB 权重，保持去雾先验含义。"""
+    """原始 OpenCV 灰度引导图对应的 RGB 权重，保持去雾先验含义。"""
     return 0.299 * rgb[..., 0] + 0.587 * rgb[..., 1] + 0.114 * rgb[..., 2]
 
 
@@ -41,13 +41,13 @@ def dcp(image, **kwargs):
 
 
 def invert_dcp(image, **kwargs):
-    """A 的夜间反转图像思路：反转→DCP→反转。"""
+    """夜间反转图像思路：反转→DCP→反转。"""
     params = {"a_min": 0.0, **kwargs}
     return u8(1 - _dcp_float(1 - unit(image), **params))
 
 
 def cap(image, beta=1.0, t0=0.2, a_min=0.3):
-    """A 的确定性 CAP-inspired 亮度/饱和度深度代理；非原论文随机深度模型。"""
+    """确定性 CAP-inspired 亮度/饱和度深度代理"""
     x = unit(image)
     if beta < 0 or not 0 < t0 <= 1 or not 0 <= a_min <= 1:
         raise ValueError("CAP 参数无效")
