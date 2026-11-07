@@ -148,3 +148,19 @@ python run.py --dataset synthetic --split val --kind joint --limit 2 --methods m
 完整比较去掉 `--limit 2`，另设输出目录。RDT 需要逐像素 225 邻域联合双边滤波，建议单独运行。
 
 `side2020_approx` 可用于同一批图像的工程近似对照；它未实现 SIDE 论文的 TGV 光晕分离。
+
+## 统一批量测试 `bench_all.py`
+
+`--methods all` 在运行前打印全部方法清单：项目 registry 中的单项与联合方法、`ceef.restore`，以及 `gamma>dcp`、`dcp>gamma` 两种既有串联。`--mode visual` 遍历 `data/new/`，按算法目录保存 PNG，在 `original/` 保存原图，并在 `comparison/` 保存标注算法名称的对比拼图；`--methods all` 的拼图包含 CEEF。不计算 PSNR 或 SSIM。`--mode metrics` 自动检查 `data/synthetic` 的清单、`data/nthazy` 的 input/gt、`data/gta5` 的 foggy/clean，以及新增数据集中的 degraded/GT、input/gt、foggy/clean 等目录对；无 GT 数据集只报告亮度、暗亮像素比例和熵等无参考诊断值。各数据集分别写出 `per_image.csv` 和 `summary.csv`；失败写入 `failures.json`，进程以非零状态退出。
+
+```sh
+# 轻量检查；为重复实验换一个 --tag，避免覆盖既有结果
+python bench_all.py --mode visual --methods gamma --limit 2 --tag visual_check
+python bench_all.py --mode metrics --methods identity --limit 2 --tag metrics_check
+
+# 正式批量：会运行 RDT 和全部方法，计算量较大；在允许本机长时间运行时执行
+python bench_all.py --mode visual --methods all --tag visual_full
+python bench_all.py --mode metrics --methods all --tag metrics_full
+```
+
+输出位于 `results/benchmark/visual/<tag>/` 和 `results/benchmark/metrics/<tag>/`。`--limit` 对每个数据集分别生效。PSNR/SSIM 仅对同尺寸 GT 计算；无参考诊断值不等同图像质量分数。CPU 耗时只计单次算法调用，不含文件读写和指标计算。完整运行 RDT、CEEF 和大尺寸图像前可先用 `--limit 2` 检查资源开销。

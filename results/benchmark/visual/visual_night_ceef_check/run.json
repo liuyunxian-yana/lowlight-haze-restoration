@@ -1,0 +1,12 @@
+{
+  "mode": "visual",
+  "methods": [
+    "gamma",
+    "ceef"
+  ],
+  "limit": 2,
+  "data_root": "/Users/shimmer/Documents/研一/课程/数字图像处理/作业/lowlight-haze-restoration/data",
+  "failures": 0,
+  "timing": "单次进程 CPU 与墙钟时间；只计算法调用，不计图像读写和指标",
+  "no_reference": "mean_luma、dark_ratio、bright_ratio、luma_entropy 为无参考诊断量"
+}

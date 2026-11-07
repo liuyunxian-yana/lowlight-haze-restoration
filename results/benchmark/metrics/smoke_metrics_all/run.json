@@ -1,0 +1,32 @@
+{
+  "mode": "metrics",
+  "methods": [
+    "a_fusion",
+    "a_illum_dcp",
+    "agcwd",
+    "cap",
+    "ceef",
+    "clahe",
+    "dcp",
+    "dcp>gamma",
+    "gamma",
+    "gamma>dcp",
+    "identity",
+    "invert_dcp",
+    "model_full",
+    "model_fusion_anchor",
+    "model_global_e",
+    "model_haze_only",
+    "model_light_only",
+    "model_unregularized",
+    "rdt_source",
+    "rdt_target",
+    "side2020_approx",
+    "zhang2014"
+  ],
+  "limit": 2,
+  "data_root": "/Users/shimmer/Documents/Codex/2026-11-06/z/work/bench_smoke_data",
+  "failures": 0,
+  "timing": "单次进程 CPU 与墙钟时间；只计算法调用，不计图像读写和指标",
+  "no_reference": "mean_luma、dark_ratio、bright_ratio、luma_entropy 为无参考诊断量"
+}
